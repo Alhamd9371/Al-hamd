@@ -1,0 +1,88 @@
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* width: 100%; */
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-right: 60px;
+    height: 100%;
+     /* place-items: center; */
+}
+
+.content-img-slider {
+    margin: 30px;
+    height: 50vh;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    animation: changeImage 10s infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.content-heading {
+    font-size: xx-large;
+    height: 100%;
+    width: 100%;
+    text-align: start;
+    margin-top: 0;
+    /* margin-top: 60px; */
+    /* margin-bottom: 25px; */
+}
+
+.content-text {
+    color: rgba(59, 58, 58, 0.714);
+    width: 100%;
+    margin-top: 5px;
+    /* text-align: start; */
+    height: 100%;
+    /* margin-top: 20px; */
+}
+
+.content-para {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .content-img-slider {
+        margin: 30px;
+        height: 50vh;
+        width: 80%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: 100% 100%;
+        animation: changeImage 10s infinite;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .content-img-slider {
+        margin: 30px;
+        height: 40vh;
+        width: 70%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: 100% 100%;
+        animation: changeImage 10s infinite;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+}
