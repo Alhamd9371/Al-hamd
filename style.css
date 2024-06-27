@@ -4,9 +4,9 @@
     padding: 0;
 }
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 .container-box1 {
     height: 150px;
@@ -45,7 +45,7 @@ html {
 }
 
 .container-box1-innerBox-favicon a {
-    color: greenyellow;
+    color: rgba(155, 210, 71, 0.929);
     font-size: larger;
 }
 
@@ -160,7 +160,7 @@ nav .green-line::after {
     content: '';
     width: 0;
     height: 3px;
-    background: greenyellow;
+    background: rgba(155, 210, 71, 0.929);
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -181,7 +181,7 @@ nav ul li a {
 }
 
 .follow a {
-    background-color: greenyellow;
+    background-color: rgba(155, 210, 71, 0.929);
     font-size: larger;
     padding: 7px;
     color: #3c3a3ade;
@@ -253,7 +253,7 @@ nav ul li a {
     display: inline-block;
     padding: 14px 40px;
     text-decoration: none;
-    color: greenyellow;
+    color: rgba(155, 210, 71, 0.929);
     font-weight: bolder;
     transition: background 0.5s;
 }
@@ -262,7 +262,7 @@ nav ul li a {
     /* display: block;
     margin: 50px auto; */
     /* width: fit-content; */
-    border: 1px solid greenyellow;
+    border: 1px solid rgba(155, 210, 71, 0.929);
     border-radius: 6px;
 }
 
@@ -293,7 +293,7 @@ nav ul li a {
 }
 
 .heading-primary {
-    color: greenyellow;
+    color: rgba(155, 210, 71, 0.929);
     font-size: x-large;
     font-weight: bolder;
 }
@@ -419,7 +419,7 @@ nav ul li a {
     bottom: 0;
     right: 50%;
     left: 40%;
-    background-color: greenyellow;
+    background-color: rgba(155, 210, 71, 0.929);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -444,7 +444,7 @@ nav ul li a {
 }
 
 .feature-box {
-    border: 1px solid greenyellow;
+    border: 1px solid rgba(155, 210, 71, 0.929);
     width: 44.67%;
     padding: 30px;
     margin: 20px;
@@ -452,15 +452,15 @@ nav ul li a {
 }
 
 .feature-box:hover {
-    box-shadow: greenyellow 0px 50px 50px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(155, 210, 71, 0.929) 0px 50px 50px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .feature-primary {
-    text-decoration: underline greenyellow;
+    text-decoration: underline rgba(155, 210, 71, 0.929);
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
-    color: greenyellow;
+    color: rgba(155, 210, 71, 0.929);
     padding-bottom: 10px;
 }
 
@@ -506,7 +506,7 @@ nav ul li a {
 }
 
 .col-text .col-primary {
-    color: greenyellow;
+    color: rgba(155, 210, 71, 0.929);
 }
 
 .col-text .col-secondary {
@@ -529,7 +529,7 @@ nav ul li a {
 .col-secondary .fa-location-dot,
 .fa-phone,
 .fa-envelope {
-    color: greenyellow;
+    color: rgba(155, 210, 71, 0.929);
     font-size: larger;
     text-align: center;
 }
@@ -571,7 +571,7 @@ nav ul li a {
 }
 
 #scroll-text {
-    color: greenyellow;
+    color: rgba(155, 210, 71, 0.929);
     font-weight: bold;
     font-size: 5rem;
     -webkit-text-stroke: 2px rgb(97, 124, 97);
@@ -707,7 +707,7 @@ nav ul li a {
 }
 
 .record-gallery:hover {
-    box-shadow: greenyellow 0px 50px 50px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(155, 210, 71, 0.929) 0px 50px 50px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 
@@ -744,7 +744,7 @@ nav ul li a {
 
 .gallery-photos img:hover {
     /* box-shadow: lightgreen 0px 50px 50px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
-    box-shadow: greenyellow 0px 30px 90px;
+    box-shadow: rgba(155, 210, 71, 0.929) 0px 30px 90px;
     /* box-shadow: lightgreen 0px -50px 36px -28px inset; */
 }
 
@@ -758,6 +758,10 @@ nav .fa-solid {
 
 .menu li:nth-last-child(4) {
     display: none;
+}
+
+.menu .submenu li:nth-child(2) {
+    display:flex;
 }
 
 .follow2 {
@@ -850,7 +854,7 @@ nav .fa-solid {
 
     nav ul {
         /* background: rgb(162, 220, 104); */
-        background: yellowgreen;
+        background: ygreen;
         display: flex;
         flex-direction: column;
         position: fixed;    
@@ -901,17 +905,17 @@ nav .fa-solid {
     }
 
     .submenu .fa-envelope {
-        -webkit-text-fill-color: yellowgreen;
+        -webkit-text-fill-color: ygreen;
         font-size: 20px;
     }
     .submenu .fa-phone {
-        -webkit-text-fill-color: yellowgreen;
+        -webkit-text-fill-color: ygreen;
         font-size: 20px;
         display: flex;
 
     }
     .submenu .fa-location-dot {
-        -webkit-text-fill-color: yellowgreen;
+        -webkit-text-fill-color: ygreen;
         font-size: 20px;
     }
 
@@ -946,7 +950,7 @@ nav .fa-solid {
     }
     
     .follow2 a {
-        background-color: yellowgreen;
+        background-color: ygreen;
         font-size: larger;
         padding: 7px;
         color: #3c3a3ade;
@@ -1043,7 +1047,7 @@ nav .fa-solid {
     }
     
     #scroll-text {
-        color: greenyellow;
+        color: rgba(155, 210, 71, 0.929);
         font-weight: bold;
         font-size: 3.5rem;
         -webkit-text-stroke: 2px rgb(97, 124, 97);
@@ -1150,7 +1154,7 @@ nav .fa-solid {
     }
 
     #scroll-text {
-        color: greenyellow;
+        color: rgba(155, 210, 71, 0.929);
         font-weight: bold;
         font-size: 2.5rem;
         -webkit-text-stroke: 2px rgb(97, 124, 97);

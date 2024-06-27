@@ -27,3 +27,7 @@ function openmenu() {
 function closemenu() {
   sidemenu.style.right = "-200px";
 }
+
+// window.onscroll = function () {
+//   behavior = "smooth";
+// }
