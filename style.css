@@ -905,17 +905,17 @@ nav .fa-solid {
     }
 
     .submenu .fa-envelope {
-        -webkit-text-fill-color: ygreen;
+        -webkit-text-fill-color: rgba(155, 210, 71, 0.929)n;
         font-size: 20px;
     }
     .submenu .fa-phone {
-        -webkit-text-fill-color: ygreen;
+        -webkit-text-fill-color: rgba(155, 210, 71, 0.929)n;
         font-size: 20px;
         display: flex;
 
     }
     .submenu .fa-location-dot {
-        -webkit-text-fill-color: ygreen;
+        -webkit-text-fill-color: rgba(155, 210, 71, 0.929)n;
         font-size: 20px;
     }
 
@@ -950,7 +950,7 @@ nav .fa-solid {
     }
     
     .follow2 a {
-        background-color: ygreen;
+        background-color: rgba(155, 210, 71, 0.929)n;
         font-size: larger;
         padding: 7px;
         color: #3c3a3ade;
